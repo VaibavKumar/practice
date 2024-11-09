@@ -17,8 +17,50 @@ nav{
     position: relative;
     height: 70px;
 }
+.container{
+    display:-webkit-inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid hsl(353, 98%, 62%);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.divc:hover>:not(:hover){
+    filter: blur(5px);
+    opacity: 0.5;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    margin: 15px;
+    border: 2.5px solid hsl(353, 98%, 62%) ;
+    border-radius: 50%;
+}
+.htag{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(253, 63, 85) ;
+    font-size: x-large;
+    margin: 15px;
+}
 .logo{
     color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.details{
+    display:-webkit-inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid hsl(353, 98%, 62%);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+}
+summary,p,li{
+    color: rgb(253, 63, 85) ;
 }
 nav,ul{
     display: flex;
